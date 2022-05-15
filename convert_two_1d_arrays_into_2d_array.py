@@ -16,11 +16,12 @@ def convert_two_1_d_arrays_into_2_d_array(arr1, arr2):
 
 if __name__ == '__main__':
     try:
-        a = np.array([[1], [2], [3], [4]], [9])
+        a = np.array([[1], [2], [3], [4]])
         b = np.array([[5], [6], [7], [8]])
         print(convert_two_1_d_arrays_into_2_d_array(a, b))
         print("_" * 30)
-        c = np.array([[1], [2], [3], [4]], [9])
+
+        c = np.array([[1], [2], [3], [4], [9]])
         d = np.array([[5], [6], [7], [8]])
         print(convert_two_1_d_arrays_into_2_d_array(c, d))
     except Exception:

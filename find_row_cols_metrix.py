@@ -1,7 +1,7 @@
 import numpy as np
 
 
-def find_size_matrix(matrix):
+def get_size_rows_cols_of_matrix(matrix: np.array) -> tuple:
     """
     Get matrix and return the size of rows and cols.
     :param matrix:
@@ -11,7 +11,7 @@ def find_size_matrix(matrix):
 
 
 if __name__ == '__main__':
-    print(find_size_matrix([[2, 3], [4, 5], [5, 7]]))
-    print(find_size_matrix([[2, 3, 5], [4, 5, 6], [5, 7, 8]]))
-    print(find_size_matrix([2, 3, 4, 6, 5, 7]))
+    print(get_size_rows_cols_of_matrix([[2, 3], [4, 5], [5, 7]]))
+    print(get_size_rows_cols_of_matrix([[2, 3, 5], [4, 5, 6], [5, 7, 8]]))
+    print(get_size_rows_cols_of_matrix([2, 3, 4, 6, 5, 7]))
 

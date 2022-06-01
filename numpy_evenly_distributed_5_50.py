@@ -1,7 +1,7 @@
 import numpy as np
 
 
-def evenly_distributed_5_50():
+def evenly_distributed_5_50() -> np.array:
     """
     Create vector with evenly_distributed between 5 - 50 using  numpy linspace function.
     :return:Evenly_distributed vector.

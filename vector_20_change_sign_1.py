@@ -1,8 +1,7 @@
-# importing numpy
 import numpy as np
 
 
-def change_sign_vector(np1, range1, range2):
+def change_sign_vector(np1: np.array, range1: int, range2: int) -> np.array:
     """
     Get numpy array and change the sign of -/+ of the array in range of the give inputs: range1-rang2.
     :param np1:(np.array)
@@ -15,5 +14,4 @@ def change_sign_vector(np1, range1, range2):
 
 
 if __name__ == '__main__':
-    print(change_sign_vector(np.array(range(21)), 9, 15))
-
+    print(change_sign_vector(np.arange(21), 9, 15))
